@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
@@ -39,61 +40,79 @@
 
 
     <div class="container">
-        <h1 class="text-center">Recipes</h1>
-        <div class="row row-content">
-            <div class="col col-sm-10 col-md-8 col-lg-6 mx-auto p-5">
-                <div id="recipeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#recipeCarousel" data-slide-to="1"></li>
-                        <li data-target="#recipeCarousel" data-slide-to="2"></li>
-                    </ol>
-                        <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="fruit_smoothie.html"><img src="img/smoothie_image_1.png" alt="Smoothie Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Fruit Smoothie</h3>
-                                <p>Enjoy a fruity, juicy delight that is perfect for a warm day.</p>
-                            </div></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="creamy_hummus.html"><img src="img/hummus_image_1.png" alt="Hummus Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Creamy Hummus</h3>
-                                <p>Try smooth, creamy hummus with your favorite side for a healthy snack.</p>
-                            </div></a>                           
-                        </div>
-                        <div class="carousel-item">
-                            <a href="teriyaki_chicken.html"><img src="img/teriyaki_image_1.png" alt="Teriyaki Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Teriyaki Chicken</h3>
-                                <p>Savor the sweet, salty taste of teriyaki chicken to fill you up.</p>
-                            </div></a>                           
-                        </div>
-                    </div>
-                    <a href="#recipeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a href="#recipeCarousel" class="carousel-control-next" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+        <div class="row row-content align-items-center my-3 py-3">
+            <div class="col-12 col-md-6 text-center">
+                <h1>Creamy Hummus</h1><br>
+                <p>To make hummus, you will need the following items:</p>
+                <ul style="list-style: none;">
+                    <li>Cooked chickpeas</li>
+                    <li>Olive Oil</li>
+                    <li>Lemon Juice</li>
+                    <li>Garlic</li>
+                    <li>Parsley and Paprika (for garnish)</li>
+                </ul>
+                <p>And you will also need a blender to mix up your ingredients.</p>
+            </div>
+            <div class="col-12 col-md-6 my-3 py-3">
+                <img src="img/hummus_image_1.png" alt="Hummus Image" class="w-100 d-block img-thumbnail">
             </div>
         </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col text-center">
+                <h3>Instructions</h3>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>1.) Add 1 can of chickpeas to your blender</h5>
+                <p>Your chickpeas may be precooked or you may cook your chickpeas yourself. For smoother hummus, you may remove the skin from each chickpea, although this is time-consuming.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>2.) Add Olive Oil</h5>
+                <p>Add 2 tablespoons of olive oil to your blender. You may add an extra tablespoon for even smoother consistency.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>3.) Add Lemon Juice</h5>
+                <p>Add 2 tablespoons of lemon juice to your blender to give your hummus more flavor.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>4.) Add Garlic</h5>
+                <p>Add 2 cloves of minced garlic to your blender.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>5.) Add Salt</h5>
+                <p>Add no more than a pinch of salt to your ingredients.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>6.) Blend!</h5>
+                <p>Blend your ingredients until smooth!</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>7.) Add Parsley and Paprika</h5>
+                <p>Add chopped parsley and paprika to garnish your hummus. You can also add extra olive oil, tomatoes, or basil on top. Serve with your favorite vegetable or pita bread for dipping.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col text-center">
+                <h3>Enjoy!</h3>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <a class="btn btn-lg btn-success mx-auto" href="recipes.html">Back to recipes</a>
+        </div>
     </div>
-
-    <style>
-        .carousel {
-            border: solid hsl(120, 30%, 30%) 3px;
-        }
-
-        .carousel-caption {
-            background-color: hsl(0, 0%, 0%, 0.5);
-        }
-    </style>
-
 
 
     <footer class="py-4 mt-3" style="background-color: hsl(120, 50%, 50%, 0.5); color: hsl(0, 0%, 10%, 0.9)">
@@ -136,7 +155,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 
 
 </body>

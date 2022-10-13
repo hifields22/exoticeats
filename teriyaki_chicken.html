@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
 
@@ -39,61 +40,75 @@
 
 
     <div class="container">
-        <h1 class="text-center">Recipes</h1>
-        <div class="row row-content">
-            <div class="col col-sm-10 col-md-8 col-lg-6 mx-auto p-5">
-                <div id="recipeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#recipeCarousel" data-slide-to="1"></li>
-                        <li data-target="#recipeCarousel" data-slide-to="2"></li>
-                    </ol>
-                        <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="fruit_smoothie.html"><img src="img/smoothie_image_1.png" alt="Smoothie Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Fruit Smoothie</h3>
-                                <p>Enjoy a fruity, juicy delight that is perfect for a warm day.</p>
-                            </div></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="creamy_hummus.html"><img src="img/hummus_image_1.png" alt="Hummus Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Creamy Hummus</h3>
-                                <p>Try smooth, creamy hummus with your favorite side for a healthy snack.</p>
-                            </div></a>                           
-                        </div>
-                        <div class="carousel-item">
-                            <a href="teriyaki_chicken.html"><img src="img/teriyaki_image_1.png" alt="Teriyaki Image" class="d-block w-100">
-                            <div class="carousel-caption">
-                                <h3>Teriyaki Chicken</h3>
-                                <p>Savor the sweet, salty taste of teriyaki chicken to fill you up.</p>
-                            </div></a>                           
-                        </div>
-                    </div>
-                    <a href="#recipeCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a href="#recipeCarousel" class="carousel-control-next" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+        <div class="row row-content align-items-center my-3 py-3">
+            <div class="col-12 col-md-6 text-center">
+                <h1>Teriyaki Chicken</h1><br>
+                <p>To make teriyaki chicken, you will need the following items:</p>
+                <ul style="list-style: none;">
+                    <li>Chicken</li>
+                    <li>Teriyaki Sauce and Sesame Oil</li>
+                    <li>Rice Vinegar or Wine</li>
+                    <li>Garlic and Ginger</li>
+                    <li>Soy or Tamari Sauce</li>
+                    <li>Green Onions or Leeks</li>
+                </ul>
+                <p>And you will also need a large pan to stir fry your chicken.</p>
+            </div>
+            <div class="col-12 col-md-6 my-3 py-3">
+                <img src="img/teriyaki_image_1.png" alt="Teriyaki Chicken Image" class="w-100 d-block img-thumbnail">
             </div>
         </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col text-center">
+                <h3>Instructions</h3>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>1.) Make Marinade</h5>
+                <p>Mix in 1/2 cup of teriyaki sauce, 1/2 cup of rice vinegar or wine, 1 cup of soy or tamari sauce, 3 cloves of minced garlic and 3 inches of minced and skinned ginger to a bowl. Mix ingredients well. Use rice wine and tamari sauce if available, as they will give your chicken a smoother taste.</p>
+
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>2.) Add Chicken to your Marinade</h5>
+                <p>Add 3-4 lbs of chopped boneless chicken breast to your marinade. Mix well, and let marinate for 30 minutes, longer if possible.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>3.) Prepare your Pan</h5>
+                <p>Lightly coat your pan with sesame oil and put it on heat.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>4.) Add Chicken to your Pan</h5>
+                <p>Add your chicken to your pan, and pour your remaining marinade into the pan as well.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>5.) Stir Fry the Chicken</h5>
+                <p>Using a spatula, stir fry your chicken until well done.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col">
+                <h5>6.) Add Green Onions or Leeks for garnish</h5>
+                <p>Add minced green onions or leeks to garnish your chicken. Serve with sautéed broccoli or other vegetables on a bed of steamed rice.</p>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <div class="col text-center">
+                <h3>Enjoy!</h3>
+            </div>
+        </div>
+        <div class="row row-content py-3 my-3">
+            <a class="btn btn-lg btn-success mx-auto" href="recipes.html">Back to recipes</a>
+        </div>
     </div>
-
-    <style>
-        .carousel {
-            border: solid hsl(120, 30%, 30%) 3px;
-        }
-
-        .carousel-caption {
-            background-color: hsl(0, 0%, 0%, 0.5);
-        }
-    </style>
-
 
 
     <footer class="py-4 mt-3" style="background-color: hsl(120, 50%, 50%, 0.5); color: hsl(0, 0%, 10%, 0.9)">
@@ -136,7 +151,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
 
 
 </body>
